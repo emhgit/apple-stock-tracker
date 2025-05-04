@@ -4,9 +4,13 @@ This is a Google Apps Script automation that populates a Google Sheet with real-
 ![Screenshot](https://github.com/user-attachments/assets/78d44b22-6a78-4d13-b004-c5c5a1c7e0e4)
 
 ## 🚀 Features
+
+**Email automation** based on stock price 
+
 Fetches real-time Apple stock data.
 
 Automatically updates a designated Google Sheet.
+
 
 No external dependencies required—runs entirely within Google Apps Script.
 
