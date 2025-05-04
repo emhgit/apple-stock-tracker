@@ -48,3 +48,35 @@ function fetchData() {
     Logger.log(error);
   }
 }
+
+function sendEmail(){
+    //get current sheet
+    const sheet = SpreadsheetApp.getActive().getSheetByName("Sheet1");
+
+    //get latest low price
+    const lastRow = sheet.getLastRow();
+    const low = sheet.getRange(lastRow, 4).getValue();
+
+    //check if price is below 200
+    if(low < 200){
+        //if so send email to me
+        const myEmail = "myemail@gmail.com";
+        const subject = "Alert: Apple Price Below $200";
+
+        const timeStamp = sheet.getRange(lastRow, 1).getValue();
+        const open = sheet.getRange(lastRow, 2).getValue();
+        const high = sheet.getRange(lastRow, 3).getValue();
+        const close = sheet.getRange(lastRow, 5).getValue();
+        const volume = sheet.getRange(lastRow, 5).getValue();
+       
+        const body =
+        `Time stamp: ${timeStamp}
+        Open: ${open}
+        High: ${high}
+        Low: ${low}
+        Close: ${close}
+        Volume: ${volume}`;
+       
+        GmailApp.sendEmail(myEmail, subject, body);
+    }
+}
