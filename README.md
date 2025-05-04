@@ -1,6 +1,8 @@
 # 📈 Apple Stock Tracker
 This is a Google Apps Script automation that populates a Google Sheet with real-time Apple Inc. (AAPL) stock data from the AlphaVantage API. This tool is ideal for investors, analysts, or anyone interested in tracking Apple's stock performance directly within Google Sheets.
 
+![Screenshot](https://github.com/user-attachments/assets/78d44b22-6a78-4d13-b004-c5c5a1c7e0e4)
+
 ## 🚀 Features
 Fetches real-time Apple stock data.
 
