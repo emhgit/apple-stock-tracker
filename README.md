@@ -11,8 +11,7 @@ Automatically updates a designated Google Sheet.
 No external dependencies required—runs entirely within Google Apps Script.
 
 ## 📋 Setup Instructions
-0. Get your FREE api key from AlphaVantage
-Create a Google Sheet:
+### 0. Get your FREE api key from AlphaVantage
 
 ### 1. Open Google Sheets and create a new spreadsheet.
 
