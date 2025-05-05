@@ -54,3 +54,8 @@ GitHub
 Ensure that your Google Sheet has the appropriate headers or structure expected by the script.
 
 The script uses Google's built-in services; no additional APIs or keys are required.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
