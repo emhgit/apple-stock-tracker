@@ -17,31 +17,29 @@ This is a Google Apps Script automation that populates a Google Sheet with real-
 
 Prerequisites: API key (I used free AlphaVantage key)
 
-1. Open Google Sheets and create a new spreadsheet.
-
-2. Access the Script Editor:
-
+### 1. Open Google Sheets and create a new spreadsheet.
+  
   - Navigate to Extensions > Apps Script.
 
-3. Add the Script:
+### 2. Add the Script:
 
   - Delete any existing code in the editor.
 
   - Copy and paste the contents of AppleStockDataScript.gs from this repository into the editor.
 
-4. Save and Name the Project:
+### 3. Save and Name the Project:
 
   - Click on the project name (default is "Untitled project") and rename it as desired.
 
   - Click the floppy disk icon or press Ctrl + S to save.
 
-5. Run the Script:
+### 4. Run the Script:
 
   - Click the play button to execute the script.
 
   - Authorize the script if prompted.
 
-6. Set Up Automatic Updates (Optional):
+### 5. Set Up Automatic Updates (Optional):
 
   - In the Apps Script editor, go to Triggers (clock icon on the left).
 
